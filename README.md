@@ -12,9 +12,12 @@
 ## ⌛ 개발 기간
 2022.06.04 ~
 
+## 🧶 기술 스택
+![React](https://img.shields.io/badge/-React-61DAFB?&logo=react&logoColor=white)
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/> 
+
+
 ## 🎯 TDD를 하며 느낀 점
 * 문제 요구사항 중에서 테스트를 작성해야 하는 부분이 어디인지를 알기 위해 <BR/> 요구사항을 꼼꼼히 읽다보니 문제 요구사항을 잘 숙지하게 되었다.
-* 본격적으로 계산기 기능을 구현하기 전 테스트 작성을 위해 utils 함수 등을 먼저 작성하니 <br/> 본 기능을 구현하기 이전 마음의 부담이 조금 줄어드는 느낌이다.
-
-## 🧶 사용 스택
+* 본격적으로 계산기 기능을 구현하기 전 테스트 작성을 위해 utils 함수 등을 먼저 작성하여 <br/> 기능 구현의 일부를 미리 하는 느낌이 들었다.
 
