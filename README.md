@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# Jest 테스트를 구현한 환율 계산기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🧨 주제
+원티드 프리온보딩 2기 첫번째 과제였던 환율 계산기 문제를 TDD 방식으로 개인적으로 다시 구현
 
-## Available Scripts
+## 🧿 목표
+* Jest로 단위테스트 진행 후 실제 JS 기능 구현 (TDD 방식 시도)
+* open API 활용 (https://apilayer.com/marketplace/currency_data-api#documentation-tab)
+  * document를 읽으며 API key를 헤더에 등록하고 axios를 통해 받아온 환율 데이터를 기능 구현에 활용 
+* 환율 계산기 기능 구현
 
-In the project directory, you can run:
+## ⌛ 개발 기간
+2022.06.04 ~
 
-### `yarn start`
+## 🎯 TDD를 하며 느낀 점
+* 문제 요구사항 중에서 테스트를 작성해야 하는 부분이 어디인지를 알기 위해 <BR/> 요구사항을 꼼꼼히 읽다보니 문제 요구사항을 잘 숙지하게 되었다.
+* 본격적으로 계산기 기능을 구현하기 전 테스트 작성을 위해 utils 함수 등을 먼저 작성하니 <br/> 본 기능을 구현하기 이전 마음의 부담이 조금 줄어드는 느낌이다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🧶 사용 스택
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
