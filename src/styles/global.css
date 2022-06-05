@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+input,
+input:active,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+input {
+  border-bottom: 1px solid #8e8e8e;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
